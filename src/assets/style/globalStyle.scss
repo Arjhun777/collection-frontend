@@ -1,0 +1,41 @@
+@import './variables';
+
+@mixin flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
+
+.module-loader {
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+}
+
+.no-result-text {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    top: 50vh;
+    position: relative;
+}
+
+#user-details-form {
+    display: grid;
+    width: 50%;
+    margin: auto;
+    > * {
+        margin: 10px;
+    }
+}
+
+.app-navbar {
+    .navbar-title {
+        flex-grow: 1;
+    }
+}

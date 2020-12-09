@@ -1,0 +1,11 @@
+{
+    "development": {
+        "backend": "http://localhost:5000"
+    },
+    "test": {
+        
+    },
+    "production": {
+
+    }
+}

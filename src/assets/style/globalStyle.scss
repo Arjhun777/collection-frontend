@@ -21,7 +21,7 @@ body {
     font-weight: 600;
     font-size: 24px;
     text-align: center;
-    top: 50vh;
+    top: calc(50vh - 64px);
     position: relative;
 }
 
